@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
     vb.customize ["modifyvm", :id, "--cpus", 1]
   end
 
-  config.vm.network :private_network, ip: "11.11.11.11"
+  config.vm.network :private_network, ip: "10.1.1.111"
 
   config.vm.synced_folder "www/", "/var/www"
 
