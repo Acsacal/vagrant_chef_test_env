@@ -32,7 +32,7 @@ Install Vagrant and then
 
     $ vagrant up
 
-When Vagrant is done, you could go to http://11.11.11.11 and see php info.
+When Vagrant is done, you could go to http://10.0.0.111 and see php info.
 
 To SSH in to VM, just do
 
@@ -45,7 +45,7 @@ To run your application from `host` machine in your browser, just add the Server
 With Ubuntu:
 
     $ sudo vim /etc/hosts
-    $ ... add new line: 11.11.11.11 vm-app
+    $ ... add new line: 10.0.0.111 vm-app
     $ ... save
 
 Then you could run your application on `guest` VM from `host` machine using browser: [http://vm-app/](http://vm-app/)
